@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
   <manifest>
-  <remote fetch="https://github.com/nxp-auto-linux" name="alb"/>
+  <remote fetch="https://github.com/consider-it/meta-alb" name="alb"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://git.openembedded.org" name="oe"/>
 
   <remote fetch="https://github.com/nxp-qoriq" name="qoriq"/>
 
   <!-- The default revision and remote are applicable to the meta-alb layer -->
-  <default sync-j="2" revision="3d9b44b8ef908c9745db191b6e8657f7ef36fa12" remote="alb"/>
+  <default sync-j="2" revision="981d365b4385d5b72502a9035cb26282a926deed" remote="alb"/>
 
   <project name="meta-alb" path="sources/meta-alb">
     <copyfile dest="nxp-setup-alb.sh"    src="nxp-setup-alb.sh"/>
